@@ -2,6 +2,8 @@ import React from "react";
 import { Table } from "antd";
 // import { connect } from "dva";
 import "antd/dist/antd.css";
+import delgray from '../../assets/delgray.svg';
+import setTopIcon1 from '../../assets/setTopIcon1.svg';
 const aa = [
   {
     title: "姓名",
@@ -66,7 +68,20 @@ export default class Feed extends React.Component {
   UNSAFE_componentWillMount() {
     // 头
     const columns = [];
-
+    columns.push({
+      title: "置顶1123123213",
+        dataIndex: "a",
+        key: "a",
+        fixed: "left",
+        width: 100,
+        render: (text, record, index) => (
+          <a>
+            <img style={{ width: '16px', cursor: 'pointer' }} src={delgray} alt="" />
+            <img style={{ width: '20px', cursor: 'pointer' }} src={setTopIcon1} alt="" />
+          </a>
+        )
+    });
+    
     for (let i = 0; i < aa.length; i += 1) {
       columns.push({
         title: aa[i].title,
