@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="39px" viewBox="0 0 35 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>表单名称左图</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-344.000000, -120.000000)">
+            <g id="表单名称左图" transform="translate(346.000000, 122.000000)">
+                <path d="M2.18971068,0.201397281 L28.6236692,0.201397281 C29.7976145,0.201397281 30.7492852,1.15306796 30.7492852,2.32701323 L30.7492852,32.7203512 C30.7492852,33.8942965 29.7976145,34.8459671 28.6236692,34.8459671 L2.18971068,34.8459671 C1.01576541,34.8459671 0.0640947347,33.8942965 0.0640947347,32.7203512 L0.0640947347,2.32701323 C0.0640947347,1.15306796 1.01576541,0.201397281 2.18971068,0.201397281 Z" id="Rectangle-8" stroke="#868686" stroke-width="3"></path>
+                <polygon id="Rectangle-9" fill="#868686" points="1 1 30 1 30 7.27891314 1 7.27891314"></polygon>
+                <circle id="Oval-6" fill="#868686" cx="5.95120912" cy="12.9512091" r="1.95120912"></circle>
+                <circle id="Oval-6-Copy" fill="#868686" cx="5.95120912" cy="19.9512091" r="1.95120912"></circle>
+                <circle id="Oval-6-Copy-2" fill="#868686" cx="5.95120912" cy="26.8843559" r="1.95120912"></circle>
+                <rect id="Rectangle-10" fill="#868686" x="10" y="11" width="16.5437117" height="3.90241824" rx="1.95120912"></rect>
+                <rect id="Rectangle-10-Copy" fill="#868686" x="10" y="18" width="16.5437117" height="3.90241824" rx="1.95120912"></rect>
+                <rect id="Rectangle-10-Copy-2" fill="#868686" x="10" y="24.9331468" width="16.5437117" height="3.90241824" rx="1.95120912"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
