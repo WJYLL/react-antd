@@ -119,7 +119,7 @@ export default class Feed extends React.Component {
         k: "十大歌干撒as"
       }
     ];
-    console.log(columns,data);
+    console.log(columns);
     // 宽度设置
     const ii = [];
     for (let i = 0; i < columns.length; i += 1) {

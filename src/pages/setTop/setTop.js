@@ -1,6 +1,8 @@
 import React from "react";
 import { Table, Button } from "antd";
 import "antd/dist/antd.css";
+import delgray from '../../assets/delgray.svg';
+import setTopIcon1 from '../../assets/setTopIcon1.svg';
 const data_grp = [
   {
     lgc_sn: "aaa",
@@ -60,7 +62,7 @@ const data_grp = [
     }
   }
 ];
-
+ 
 export default class SetTop extends React.Component {
   state = {
     data_grps: ""
@@ -112,7 +114,10 @@ export default class SetTop extends React.Component {
         fixed: "left",
         width: 100,
         render: (text, record, index) => (
-          <a onClick={this.setTop.bind(null, record)}>置顶</a>
+          <a onClick={this.setTop.bind(null, record)}>
+            <img style={{ width: '16px', cursor: 'pointer' }} src={delgray} alt="" />
+            <img style={{ width: '20px', cursor: 'pointer' }} src={setTopIcon1} alt="" />
+          </a>
         )
       },
       {
