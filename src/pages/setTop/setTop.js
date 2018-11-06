@@ -108,7 +108,7 @@ export default class SetTop extends React.Component {
   render() {
     const columns = [
       {
-        title: "置顶",
+        title: "置顶1123123213",
         dataIndex: "a",
         key: "a",
         fixed: "left",

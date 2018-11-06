@@ -81,7 +81,7 @@ export default class Feed extends React.Component {
           </a>
         )
     });
-    
+
     for (let i = 0; i < aa.length; i += 1) {
       columns.push({
         title: aa[i].title,
